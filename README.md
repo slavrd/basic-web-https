@@ -46,9 +46,13 @@ For the the demo we will request a free SSL certificate from the Let's Encrypt C
 
   and follow the interactive prompts.
 
-  Your Let's Encrypt account information will be placed in `/etc/letsencrypt/accounts/acme-v02.api.letsencrypt.org/directory/`.
+  Your Let's Encrypt account information will be placed in 
+  
+  `/etc/letsencrypt/accounts/acme-v02.api.letsencrypt.org/directory/`.
 
-  In case you already have a Let's Encrypt registration files you can place them in the appropriate directory and skip this step. The root folder of this repository is synced to the `/vagrant` folder on the VM. This can be used to copy files between the VM and the host.
+  In case you already have a Let's Encrypt registration files you can place them in the appropriate directory and skip this step.
+  
+  The root folder of this repository is synced to the `/vagrant` folder on the VM. This can be used to copy files between the VM and the host.
 
 - Request a certificate.
 
