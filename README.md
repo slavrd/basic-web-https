@@ -38,6 +38,10 @@ vagrant ssh -c 'sudo su -'
 
 For the the demo we will request a free SSL certificate from the Let's Encrypt CA using the `certbot` utility.
 
+The [certbot](https://certbot.eff.org/) tool allows for automation of certificate management. It can be used to request, install and renew certificates automatically form CAs that support the [ACME](https://en.wikipedia.org/wiki/Automated_Certificate_Management_Environment) protocol. 
+
+In the case of this demo it is used in manual mode, only to request a certificate. We will then manually install the certificate on the web server.
+
 - Register with Let's Encrypt. Run
   
   ```bash
